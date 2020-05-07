@@ -33,6 +33,5 @@ deploy:
     cleanup: false
     token: $GITHUB_TOKEN
     local_dir: docs/
-    keep_history: true
     on:
         branch: master
