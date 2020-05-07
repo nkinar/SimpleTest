@@ -13,7 +13,6 @@ compiler:
 
 before_install:
   - sudo apt-get update
-  - sudo apt-get install -y doxygen
 
 branches:
     only:
@@ -26,12 +25,3 @@ script:
   - ./run-example
   - ./run-test
   - doxygen doxygen.conf
-
-deploy:
-    strategy: git
-    provider: pages
-    cleanup: false
-    token: $GITHUB_TOKEN
-    local_dir: docs/html
-    on:
-        branch: master
