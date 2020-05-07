@@ -97,7 +97,6 @@ Fail/Total: 1/4 (25%)
 ### Documentation
 
 Please see the `example` and `test` directories for further usage.
-Also see the [Doxygen documentation](https://nkinar.github.io/SimpleTest/).
 
 Other functions:
 * `set_max_fail_num(number)` sets the number of fails required before an exception is thrown
