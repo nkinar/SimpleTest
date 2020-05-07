@@ -24,4 +24,3 @@ script:
   - make
   - ./run-example
   - ./run-test
-  - doxygen doxygen.conf
